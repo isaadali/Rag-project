@@ -20,5 +20,5 @@ if __name__=="__main__":
         for i in f:
                 print(i['id'])
                 print(i['doc'])
-    print('Bye')
+    print('allah hafiz')
                 
