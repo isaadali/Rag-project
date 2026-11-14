@@ -1,0 +1,29 @@
+[project]
+name = "bot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "isaadali", email = "saadali9497@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "beautifulsoup4>=4.15.0",
+    "chromadb>=1.5.9",
+    "docx2txt>=0.9",
+    "langchain>=1.4.6",
+    "langchain-community>=0.4.2",
+    "pypdf>=6.21.0",
+    "python-dotenv>=1.2.4",
+    "requests>=2.34.2",
+    "sentence-transformers>=6.1.0",
+    "streamlit>=1.66.0",
+    "youtube-transcript-api>=1.2.4",
+]
+
+[project.scripts]
+bot = "bot:main"
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"
